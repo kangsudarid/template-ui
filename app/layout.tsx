@@ -17,28 +17,28 @@ const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
-  name: 'Joko UI',
+  name: 'SEO Template UI',
   url: baseUrl,
-  alternateName: ['JokoUI', 'Joko UI', 'Joko UI Components'],
+  alternateName: ['SEO Template UI', 'SEO Template UI', 'SEO Template UI Components'],
 }
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
-  title: "Joko UI - Free Tailwind CSS Components",
+  title: "SEO Template UI - Free Tailwind CSS Components",
   description:
     "Free, open-source Tailwind CSS components. Copy-paste ready components to build beautiful, responsive websites faster. No installation required.",
   keywords: ["tailwind css", "components", "ui library", "free", "open source"],
   openGraph: {
-    title: "Joko UI - Free Tailwind CSS Components",
+    title: "SEO Template UI - Free Tailwind CSS Components",
     description: "Free, open-source Tailwind CSS components. Copy-paste ready components to build beautiful, responsive websites faster.",
     url: baseUrl,
-    siteName: "Joko UI",
+    siteName: "SEO Template UI",
     images: [
       {
         url: `${baseUrl}/og.webp`,
         width: 1200,
         height: 630,
-        alt: "Joko UI - Free Tailwind CSS Components",
+        alt: "SEO Template UI - Free Tailwind CSS Components",
       },
     ],
     locale: "en_US",
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Joko UI - Free Tailwind CSS Components",
+    title: "SEO Template UI - Free Tailwind CSS Components",
     description: "Free, open-source Tailwind CSS components. Copy-paste ready components to build beautiful, responsive websites faster.",
     images: [`${baseUrl}/og.webp`],
   },
